@@ -368,14 +368,155 @@ footer .content .middle a{
 footer .content .middle a:hover{
     text-decoration: underline;
 }
-@media (max-width 943px){
 
+@media(max-width: 1100px){
+      footer .content .middle {
+        padding-left: 50px;
+      }
 }
+@media(max-width: 943px){
+    .showcase .get-started-container {
+        position: relative;
+        top: 90px;
+    }
+    .showcase .get-started-container h1{
+        font-size: 3rem;
+    }
 
-@media (max-width: 659px){
-
+    .showcase .get-started-container .p1{
+        font-size: 1.5rem;
+    }
+    .showcase .get-started-container .p2{
+        font-size: 1rem;
+    }
+    .showcase .get-started-container input{
+       padding: 17px;
+       width: 55%;
+    }
+    .showcase .get-started-container button{
+        display: block;
+        display: flex;
+        align-items:center;
+        margin: 0 auto;
+        margin-top: 1.5%;
+        padding: 12px;
+    }
 }
+@media(max-width: 659px){
+    .main-section .section-container{
+        padding-bottom: 0px;
+    }
+}
+@media(max-width: 500px){
+    .main-section .section-container .right-column{
+        height: 270px;
+    }
 
-@media (max-width: 346px){
+    .main-section .section2-container  .left-column .box {
+        width: 100%;
+    }
+    footer{
+        position: relative;
+    }
+    footer .content .box{
+        width: 100%;
+        margin-top: 30px;
+    }
+    footer .content .middle{
+        padding-left: 0;
+    }
+}
+@media(max-width: 659px){
+    .showcase-top #logo{
+        height: 22px;
+    }
 
+    .showcase-top .submit {
+        padding: 1px 5px;
+    }
+
+    .showcase-top select {
+        padding: 1px 0px;
+        position: relative;
+        right: 30px;
+    }
+
+    .showcase .get-started-container {
+        position: relative;
+        top: 60px;
+    }
+    .showcase .get-started-container h1{
+        font-size: 2rem;
+        padding: 50px;
+        padding-bottom: 0px;
+    }
+
+    .showcase .get-started-container .p1{
+        font-size: 1.5rem;
+    }
+    .showcase .get-started-container .p2{
+        font-size: 1rem;
+    }
+
+    .showcase .get-started-container input{
+        padding: 14px;
+        width: 70%;
+     }
+
+     .main-section .section-container{
+        display: block;
+     }
+     .main-section .section-container .left-column {
+        width: 100%;
+        text-align: center;
+     }
+     .main-section .section-container .right-column {
+        width: 100%;
+    }
+    
+    .main-section .section2-container {
+        display: block;
+
+    }
+
+    .main-section .section2-container .left-column{
+        width: 100%;
+    }
+
+    .main-section .section2-container .right-column{
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+@media(max-width: 346px){
+    .showcase-top #logo{
+        height: 22px;
+    }
+
+    .showcase-top .submit {
+        padding: 1px 5px;
+    }
+
+    .showcase-top select {
+        padding: 1px 0px;
+        position: relative;
+        right: 30px;
+    }
+
+    .showcase .get-started-container {
+        position: relative;
+        top: 30px;
+    }
+    .showcase .get-started-container h1{
+        font-size: 1.5rem;
+
+    }
+
+    .showcase .get-started-container .p1{
+        font-size: 1.1rem;
+    }
+    .showcase .get-started-container .p2{
+        font-size: 0.8rem;
+    }
 }
